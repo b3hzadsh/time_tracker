@@ -10,20 +10,12 @@ class ServerFailure extends Failure {
   List<Object?> get props => [];
 }
 
-
-class GPSPermissionFailure extends Failure {
-  @override
-  // TODO: implement props
-  List<Object?> get props => [];
-}
-
-class GPSStatusFailure extends Failure {
-  @override
-  // TODO: implement props
-  List<Object?> get props => [];
-}
-
 class CacheFailure extends Failure {
+  @override
+  // TODO: implement props
+  List<Object?> get props => [];
+}
+class DatabaseFailure extends Failure {
   @override
   // TODO: implement props
   List<Object?> get props => [];

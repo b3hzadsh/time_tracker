@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "name": "Flutter Test",
+      "type": "dart",
+      "request": "launch",
+      "program": "test/**/*.dart",
+      "cwd": "${workspaceFolder}"
+    }
+  ],
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../test_gradle_files"
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    
+    "[dart]": {
+      "editor.tabSize": 2,
+      
+    }
+  }
+}

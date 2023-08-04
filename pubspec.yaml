@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_date_picker_timeline:
+    path: ./flutter_date_picker_timeline-master
   jalali_table_calendar: ^1.2.0
   shamsi_date: ^1.0.1
   persian_datetime_picker: ^2.6.0
@@ -18,10 +20,14 @@ dependencies:
   dartz: ^0.10.1
   get_it: ^7.2.0
   flutter_launcher_icons: ^0.13.1
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.6
   flutter_lints: ^2.0.0
 
 flutter:
