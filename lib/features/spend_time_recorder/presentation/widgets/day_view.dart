@@ -41,15 +41,15 @@ class DayTimeBlock extends StatelessWidget {
 
   String ranadomCat() {
     List<String> eith = [
+      'excersice',
       'shopping',
       'cleaning',
       'reading',
-      'excersice',
+      'educate',
       'sport',
+      'work',
       'sex',
       'TV',
-      'work',
-      'educate',
     ];
     eith.shuffle();
     Random rand = Random(313);
